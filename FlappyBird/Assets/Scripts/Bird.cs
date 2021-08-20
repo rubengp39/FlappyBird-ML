@@ -51,6 +51,7 @@ public class Bird : MonoBehaviour
                 {
                     Jump();
                 }
+                transform.eulerAngles = new Vector3(0, 0, birdrigidbody2D.velocity.y * 0.3f);
                 break;
             case State.Dead:
                 break;

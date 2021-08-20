@@ -60,6 +60,9 @@ public class GameOverWindow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            Loader.Load(Loader.Scene.GameScene);
+        }
     }
 }

@@ -20,6 +20,7 @@ public class GameAssets : MonoBehaviour
     public Sprite pipeHeadSprite;
     public Transform pipeHead;
     public Transform pipeBody;
+    public Transform ground;
 
     public SoundAudioClip[] soundAudioClipArray;
 
