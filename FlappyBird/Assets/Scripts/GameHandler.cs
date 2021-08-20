@@ -11,6 +11,7 @@ public class GameHandler : MonoBehaviour
     {
         //GameObject gameObject = new GameObject("Pipe", typeof(SpriteRenderer));
         //gameObject.GetComponent<SpriteRenderer>().sprite = GameAssets.GetInstance().pipeHeadSprite;
+        Score.Start();
     }
 
 }
