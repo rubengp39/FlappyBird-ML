@@ -16,7 +16,7 @@ public class GameOverWindow : MonoBehaviour
 
         transform.Find("retryButton").GetComponent<Button_UI>().ClickFunc = () =>
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+            Loader.Load(Loader.Scene.GameScene);
         };
     }
     // Start is called before the first frame update
